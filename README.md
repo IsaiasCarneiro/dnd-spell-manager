@@ -1,0 +1,1 @@
+# dnd-spell-manager
