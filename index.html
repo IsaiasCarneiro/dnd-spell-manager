@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Magias D&D 5E</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Gerenciador de Magias D&D 5E</h1>
+    </header>
+    <main>
+        <section id="add-spell">
+            <h2>Adicionar Magia</h2>
+            <form id="spell-form">
+                <label for="spell-name">Nome da Magia:</label>
+                <input type="text" id="spell-name" required>
+                <label for="spell-class">Classe:</label>
+                <select id="spell-class" required>
+                    <option value="Clérigo">Clérigo</option>
+                    <option value="Mago">Mago</option>
+                    <option value="Feiticeiro">Feiticeiro</option>
+                    <!-- Adicione outras classes conforme necessário -->
+                </select>
+                <button type="submit">Adicionar</button>
+            </form>
+        </section>
+        <section id="filter-spells">
+            <h2>Filtrar Magias</h2>
+            <label for="filter-class">Classe:</label>
+            <select id="filter-class">
+                <option value="Todos">Todos</option>
+                <option value="Clérigo">Clérigo</option>
+                <option value="Mago">Mago</option>
+                <option value="Feiticeiro">Feiticeiro</option>
+                <!-- Adicione outras classes conforme necessário -->
+            </select>
+        </section>
+        <section id="spell-list">
+            <h2>Lista de Magias</h2>
+            <ul id="spells"></ul>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
