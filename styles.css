@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    padding: 1em;
+}
+
+form {
+    margin-bottom: 1em;
+}
+
+label {
+    display: block;
+    margin: 0.5em 0;
+}
+
+input, select, button {
+    padding: 0.5em;
+    margin-top: 0.5em;
+}
+
+#spell-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+#spell-list li {
+    background: #f4f4f4;
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 0.5em;
+    cursor: pointer;
+    border-radius: 4px;
+}
